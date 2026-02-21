@@ -3,14 +3,14 @@
 This project combines process mining with anomaly-based intrusion detection to rate alarms based on the degree of process-based severity obtained through process mining-driven analyses. 
 
 The project is organized in two parts. 
-- The first part - under the AnomalyDetection folder - includes the data sources and processing performed to train and test multiple machine learning models for detecting anomalies in network traffic flows.
+- The first part - under the IntrusionDetection folder - includes the data sources and processing performed to train and test multiple machine learning models for detecting anomalies in network traffic flows.
 - The second part - under the ProcessMining folder - includes the data sources and processing performed to train behavioral models against false positives resulted from the training process of intrusion detection, and the subsequent alarm rating at inference inference time.
 
 Below are the descriptions of the two projects.
 
 For issues, questions or contibutions, please contact [francesco.vitale@unina.it]-[francesco.grimaldi3@unina.it]-[fr.grimaldi@outlook.com].
 
-## Anomaly Detection
+## Intrusion Detection
 
 ### Project Structure
 
