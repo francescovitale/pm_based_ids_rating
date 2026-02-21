@@ -1,0 +1,11 @@
+{
+    "normal_1bisr_flows_flow_1183.pcap": 0.9990332432414493,
+    "normal_1bisr_flows_flow_1914.pcap": 0.9991656801649684,
+    "normal_1bisr_flows_flow_1959.pcap": 0.9997971446819124,
+    "normal_1bisr_flows_flow_234.pcap": 0.9990694224430253,
+    "normal_1bisr_flows_flow_2491.pcap": 0.9989219905002593,
+    "normal_1bisr_flows_flow_2695.pcap": 0.996002282613386,
+    "normal_1bisr_flows_flow_52.pcap": 0.9995880405408635,
+    "normal_1bisr_flows_flow_696.pcap": 0.9950778725810612,
+    "normal_1bisr_flows_flow_370.pcap": 0.8401122353339994
+}

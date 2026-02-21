@@ -1,0 +1,5 @@
+{
+    "kernel": "rbf", 
+    "nu": 0.15,
+    "n_features": 340
+}

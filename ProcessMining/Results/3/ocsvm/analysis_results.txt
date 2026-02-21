@@ -1,0 +1,682 @@
+{
+    "1": {
+        "band_threshold": "BAND_0_1",
+        "recall_sigma": 0.0,
+        "precision_sigma": 0.0,
+        "tp_bands": {
+            "BAND_0_1": 0,
+            "BAND_1_25": 3497,
+            "BAND_25_75": 10639,
+            "BAND_75_99": 10,
+            "BAND_99_100": 0
+        },
+        "fp_bands": {
+            "BAND_0_1": 0,
+            "BAND_1_25": 0,
+            "BAND_25_75": 0,
+            "BAND_75_99": 21,
+            "BAND_99_100": 26
+        },
+        "band_stats": {
+            "BAND_0_1": {
+                "mean_total_alignments": {
+                    "TP": 0.0,
+                    "FP": 0.0
+                },
+                "mean_alignments_per_activity": {
+                    "TP": {},
+                    "FP": {}
+                },
+                "mean_similarity": {
+                    "TP": 0.0,
+                    "FP": 0.0
+                }
+            },
+            "BAND_1_25": {
+                "mean_total_alignments": {
+                    "TP": 1.910345772566962,
+                    "FP": 0.0
+                },
+                "mean_alignments_per_activity": {
+                    "TP": {
+                        "C_to_S_SYN": 1.0,
+                        "S_to_C_SYN+ACK": 1.0,
+                        "C_to_S_ACK": 1.4438179621425695,
+                        "C_to_S_ACK+PSH": 5.253725332259363,
+                        "S_to_C_ACK": 4.7635036496350365,
+                        "S_to_C_ACK+PSH": 1.0,
+                        "S_to_C_ACK+FIN": 1.0,
+                        "C_to_S_ACK+FIN": 1.0
+                    },
+                    "FP": {}
+                },
+                "mean_similarity": {
+                    "TP": 0.1442896397524348,
+                    "FP": 0.0
+                }
+            },
+            "BAND_25_75": {
+                "mean_total_alignments": {
+                    "TP": 2.090417500302123,
+                    "FP": 0.0
+                },
+                "mean_alignments_per_activity": {
+                    "TP": {
+                        "S_to_C_SYN+ACK": 1.0,
+                        "C_to_S_ACK": 1.8955519879119842,
+                        "C_to_S_ACK+PSH": 4.346398867457087,
+                        "S_to_C_ACK": 3.870954814146879,
+                        "S_to_C_ACK+PSH": 1.0,
+                        "S_to_C_ACK+FIN": 1.0,
+                        "C_to_S_ACK+FIN": 1.0,
+                        "C_to_S_SYN": 1.0
+                    },
+                    "FP": {}
+                },
+                "mean_similarity": {
+                    "TP": 0.5198195389451693,
+                    "FP": 0.0
+                }
+            },
+            "BAND_75_99": {
+                "mean_total_alignments": {
+                    "TP": 1.1528571428571428,
+                    "FP": 13.560345804988664
+                },
+                "mean_alignments_per_activity": {
+                    "TP": {
+                        "C_to_S_SYN": 1.0,
+                        "S_to_C_SYN+ACK": 1.0,
+                        "C_to_S_ACK": 2.0,
+                        "C_to_S_ACK+PSH": 1.0,
+                        "S_to_C_ACK": 1.0,
+                        "S_to_C_ACK+PSH": 1.0,
+                        "C_to_S_ACK+FIN": 1.0,
+                        "S_to_C_ACK+FIN": 1.0
+                    },
+                    "FP": {
+                        "S_to_C_SYN+ACK": 1.0,
+                        "C_to_S_ACK": 35.0625,
+                        "C_to_S_ACK+PSH": 3.84,
+                        "S_to_C_ACK": 11.5,
+                        "S_to_C_ACK+PSH": 47.46153846153846,
+                        "C_to_S_ACK+FIN": 1.0,
+                        "S_to_C_ACK+FIN": 1.0,
+                        "C_to_S_SYN": 1.0
+                    }
+                },
+                "mean_similarity": {
+                    "TP": 0.8043895944244305,
+                    "FP": 0.9502247971580292
+                }
+            },
+            "BAND_99_100": {
+                "mean_total_alignments": {
+                    "TP": 0.0,
+                    "FP": 64.37676282051282
+                },
+                "mean_alignments_per_activity": {
+                    "TP": {},
+                    "FP": {
+                        "C_to_S_SYN": 1.0,
+                        "S_to_C_SYN+ACK": 1.0,
+                        "C_to_S_ACK": 130.6346153846154,
+                        "C_to_S_ACK+PSH": 4.131578947368421,
+                        "S_to_C_ACK": 51.46153846153846,
+                        "S_to_C_ACK+PSH": 236.78846153846155,
+                        "C_to_S_ACK+FIN": 1.0,
+                        "S_to_C_ACK+FIN": 1.0
+                    }
+                },
+                "mean_similarity": {
+                    "TP": 0.0,
+                    "FP": 0.9957188509166255
+                }
+            }
+        }
+    },
+    "2": {
+        "band_threshold": "BAND_1_25",
+        "recall_sigma": 0.2472076912201329,
+        "precision_sigma": 1.0,
+        "tp_bands": {
+            "BAND_0_1": 0,
+            "BAND_1_25": 3497,
+            "BAND_25_75": 10639,
+            "BAND_75_99": 10,
+            "BAND_99_100": 0
+        },
+        "fp_bands": {
+            "BAND_0_1": 0,
+            "BAND_1_25": 0,
+            "BAND_25_75": 0,
+            "BAND_75_99": 21,
+            "BAND_99_100": 26
+        },
+        "band_stats": {
+            "BAND_0_1": {
+                "mean_total_alignments": {
+                    "TP": 0.0,
+                    "FP": 0.0
+                },
+                "mean_alignments_per_activity": {
+                    "TP": {},
+                    "FP": {}
+                },
+                "mean_similarity": {
+                    "TP": 0.0,
+                    "FP": 0.0
+                }
+            },
+            "BAND_1_25": {
+                "mean_total_alignments": {
+                    "TP": 1.910345772566962,
+                    "FP": 0.0
+                },
+                "mean_alignments_per_activity": {
+                    "TP": {
+                        "C_to_S_SYN": 1.0,
+                        "S_to_C_SYN+ACK": 1.0,
+                        "C_to_S_ACK": 1.4438179621425695,
+                        "C_to_S_ACK+PSH": 5.253725332259363,
+                        "S_to_C_ACK": 4.7635036496350365,
+                        "S_to_C_ACK+PSH": 1.0,
+                        "S_to_C_ACK+FIN": 1.0,
+                        "C_to_S_ACK+FIN": 1.0
+                    },
+                    "FP": {}
+                },
+                "mean_similarity": {
+                    "TP": 0.1442896397524348,
+                    "FP": 0.0
+                }
+            },
+            "BAND_25_75": {
+                "mean_total_alignments": {
+                    "TP": 2.090417500302123,
+                    "FP": 0.0
+                },
+                "mean_alignments_per_activity": {
+                    "TP": {
+                        "S_to_C_SYN+ACK": 1.0,
+                        "C_to_S_ACK": 1.8955519879119842,
+                        "C_to_S_ACK+PSH": 4.346398867457087,
+                        "S_to_C_ACK": 3.870954814146879,
+                        "S_to_C_ACK+PSH": 1.0,
+                        "S_to_C_ACK+FIN": 1.0,
+                        "C_to_S_ACK+FIN": 1.0,
+                        "C_to_S_SYN": 1.0
+                    },
+                    "FP": {}
+                },
+                "mean_similarity": {
+                    "TP": 0.5198195389451693,
+                    "FP": 0.0
+                }
+            },
+            "BAND_75_99": {
+                "mean_total_alignments": {
+                    "TP": 1.1528571428571428,
+                    "FP": 13.560345804988664
+                },
+                "mean_alignments_per_activity": {
+                    "TP": {
+                        "C_to_S_SYN": 1.0,
+                        "S_to_C_SYN+ACK": 1.0,
+                        "C_to_S_ACK": 2.0,
+                        "C_to_S_ACK+PSH": 1.0,
+                        "S_to_C_ACK": 1.0,
+                        "S_to_C_ACK+PSH": 1.0,
+                        "C_to_S_ACK+FIN": 1.0,
+                        "S_to_C_ACK+FIN": 1.0
+                    },
+                    "FP": {
+                        "S_to_C_SYN+ACK": 1.0,
+                        "C_to_S_ACK": 35.0625,
+                        "C_to_S_ACK+PSH": 3.84,
+                        "S_to_C_ACK": 11.5,
+                        "S_to_C_ACK+PSH": 47.46153846153846,
+                        "C_to_S_ACK+FIN": 1.0,
+                        "S_to_C_ACK+FIN": 1.0,
+                        "C_to_S_SYN": 1.0
+                    }
+                },
+                "mean_similarity": {
+                    "TP": 0.8043895944244305,
+                    "FP": 0.9502247971580292
+                }
+            },
+            "BAND_99_100": {
+                "mean_total_alignments": {
+                    "TP": 0.0,
+                    "FP": 64.37676282051282
+                },
+                "mean_alignments_per_activity": {
+                    "TP": {},
+                    "FP": {
+                        "C_to_S_SYN": 1.0,
+                        "S_to_C_SYN+ACK": 1.0,
+                        "C_to_S_ACK": 130.6346153846154,
+                        "C_to_S_ACK+PSH": 4.131578947368421,
+                        "S_to_C_ACK": 51.46153846153846,
+                        "S_to_C_ACK+PSH": 236.78846153846155,
+                        "C_to_S_ACK+FIN": 1.0,
+                        "S_to_C_ACK+FIN": 1.0
+                    }
+                },
+                "mean_similarity": {
+                    "TP": 0.0,
+                    "FP": 0.9957188509166255
+                }
+            }
+        }
+    },
+    "3": {
+        "band_threshold": "BAND_25_75",
+        "recall_sigma": 0.9992930863848438,
+        "precision_sigma": 1.0,
+        "tp_bands": {
+            "BAND_0_1": 0,
+            "BAND_1_25": 3497,
+            "BAND_25_75": 10639,
+            "BAND_75_99": 10,
+            "BAND_99_100": 0
+        },
+        "fp_bands": {
+            "BAND_0_1": 0,
+            "BAND_1_25": 0,
+            "BAND_25_75": 0,
+            "BAND_75_99": 21,
+            "BAND_99_100": 26
+        },
+        "band_stats": {
+            "BAND_0_1": {
+                "mean_total_alignments": {
+                    "TP": 0.0,
+                    "FP": 0.0
+                },
+                "mean_alignments_per_activity": {
+                    "TP": {},
+                    "FP": {}
+                },
+                "mean_similarity": {
+                    "TP": 0.0,
+                    "FP": 0.0
+                }
+            },
+            "BAND_1_25": {
+                "mean_total_alignments": {
+                    "TP": 1.910345772566962,
+                    "FP": 0.0
+                },
+                "mean_alignments_per_activity": {
+                    "TP": {
+                        "C_to_S_SYN": 1.0,
+                        "S_to_C_SYN+ACK": 1.0,
+                        "C_to_S_ACK": 1.4438179621425695,
+                        "C_to_S_ACK+PSH": 5.253725332259363,
+                        "S_to_C_ACK": 4.7635036496350365,
+                        "S_to_C_ACK+PSH": 1.0,
+                        "S_to_C_ACK+FIN": 1.0,
+                        "C_to_S_ACK+FIN": 1.0
+                    },
+                    "FP": {}
+                },
+                "mean_similarity": {
+                    "TP": 0.1442896397524348,
+                    "FP": 0.0
+                }
+            },
+            "BAND_25_75": {
+                "mean_total_alignments": {
+                    "TP": 2.090417500302123,
+                    "FP": 0.0
+                },
+                "mean_alignments_per_activity": {
+                    "TP": {
+                        "S_to_C_SYN+ACK": 1.0,
+                        "C_to_S_ACK": 1.8955519879119842,
+                        "C_to_S_ACK+PSH": 4.346398867457087,
+                        "S_to_C_ACK": 3.870954814146879,
+                        "S_to_C_ACK+PSH": 1.0,
+                        "S_to_C_ACK+FIN": 1.0,
+                        "C_to_S_ACK+FIN": 1.0,
+                        "C_to_S_SYN": 1.0
+                    },
+                    "FP": {}
+                },
+                "mean_similarity": {
+                    "TP": 0.5198195389451693,
+                    "FP": 0.0
+                }
+            },
+            "BAND_75_99": {
+                "mean_total_alignments": {
+                    "TP": 1.1528571428571428,
+                    "FP": 13.560345804988664
+                },
+                "mean_alignments_per_activity": {
+                    "TP": {
+                        "C_to_S_SYN": 1.0,
+                        "S_to_C_SYN+ACK": 1.0,
+                        "C_to_S_ACK": 2.0,
+                        "C_to_S_ACK+PSH": 1.0,
+                        "S_to_C_ACK": 1.0,
+                        "S_to_C_ACK+PSH": 1.0,
+                        "C_to_S_ACK+FIN": 1.0,
+                        "S_to_C_ACK+FIN": 1.0
+                    },
+                    "FP": {
+                        "S_to_C_SYN+ACK": 1.0,
+                        "C_to_S_ACK": 35.0625,
+                        "C_to_S_ACK+PSH": 3.84,
+                        "S_to_C_ACK": 11.5,
+                        "S_to_C_ACK+PSH": 47.46153846153846,
+                        "C_to_S_ACK+FIN": 1.0,
+                        "S_to_C_ACK+FIN": 1.0,
+                        "C_to_S_SYN": 1.0
+                    }
+                },
+                "mean_similarity": {
+                    "TP": 0.8043895944244305,
+                    "FP": 0.9502247971580292
+                }
+            },
+            "BAND_99_100": {
+                "mean_total_alignments": {
+                    "TP": 0.0,
+                    "FP": 64.37676282051282
+                },
+                "mean_alignments_per_activity": {
+                    "TP": {},
+                    "FP": {
+                        "C_to_S_SYN": 1.0,
+                        "S_to_C_SYN+ACK": 1.0,
+                        "C_to_S_ACK": 130.6346153846154,
+                        "C_to_S_ACK+PSH": 4.131578947368421,
+                        "S_to_C_ACK": 51.46153846153846,
+                        "S_to_C_ACK+PSH": 236.78846153846155,
+                        "C_to_S_ACK+FIN": 1.0,
+                        "S_to_C_ACK+FIN": 1.0
+                    }
+                },
+                "mean_similarity": {
+                    "TP": 0.0,
+                    "FP": 0.9957188509166255
+                }
+            }
+        }
+    },
+    "4": {
+        "band_threshold": "BAND_75_99",
+        "recall_sigma": 1.0,
+        "precision_sigma": 0.9985176819368956,
+        "tp_bands": {
+            "BAND_0_1": 0,
+            "BAND_1_25": 3497,
+            "BAND_25_75": 10639,
+            "BAND_75_99": 10,
+            "BAND_99_100": 0
+        },
+        "fp_bands": {
+            "BAND_0_1": 0,
+            "BAND_1_25": 0,
+            "BAND_25_75": 0,
+            "BAND_75_99": 21,
+            "BAND_99_100": 26
+        },
+        "band_stats": {
+            "BAND_0_1": {
+                "mean_total_alignments": {
+                    "TP": 0.0,
+                    "FP": 0.0
+                },
+                "mean_alignments_per_activity": {
+                    "TP": {},
+                    "FP": {}
+                },
+                "mean_similarity": {
+                    "TP": 0.0,
+                    "FP": 0.0
+                }
+            },
+            "BAND_1_25": {
+                "mean_total_alignments": {
+                    "TP": 1.910345772566962,
+                    "FP": 0.0
+                },
+                "mean_alignments_per_activity": {
+                    "TP": {
+                        "C_to_S_SYN": 1.0,
+                        "S_to_C_SYN+ACK": 1.0,
+                        "C_to_S_ACK": 1.4438179621425695,
+                        "C_to_S_ACK+PSH": 5.253725332259363,
+                        "S_to_C_ACK": 4.7635036496350365,
+                        "S_to_C_ACK+PSH": 1.0,
+                        "S_to_C_ACK+FIN": 1.0,
+                        "C_to_S_ACK+FIN": 1.0
+                    },
+                    "FP": {}
+                },
+                "mean_similarity": {
+                    "TP": 0.1442896397524348,
+                    "FP": 0.0
+                }
+            },
+            "BAND_25_75": {
+                "mean_total_alignments": {
+                    "TP": 2.090417500302123,
+                    "FP": 0.0
+                },
+                "mean_alignments_per_activity": {
+                    "TP": {
+                        "S_to_C_SYN+ACK": 1.0,
+                        "C_to_S_ACK": 1.8955519879119842,
+                        "C_to_S_ACK+PSH": 4.346398867457087,
+                        "S_to_C_ACK": 3.870954814146879,
+                        "S_to_C_ACK+PSH": 1.0,
+                        "S_to_C_ACK+FIN": 1.0,
+                        "C_to_S_ACK+FIN": 1.0,
+                        "C_to_S_SYN": 1.0
+                    },
+                    "FP": {}
+                },
+                "mean_similarity": {
+                    "TP": 0.5198195389451693,
+                    "FP": 0.0
+                }
+            },
+            "BAND_75_99": {
+                "mean_total_alignments": {
+                    "TP": 1.1528571428571428,
+                    "FP": 13.560345804988664
+                },
+                "mean_alignments_per_activity": {
+                    "TP": {
+                        "C_to_S_SYN": 1.0,
+                        "S_to_C_SYN+ACK": 1.0,
+                        "C_to_S_ACK": 2.0,
+                        "C_to_S_ACK+PSH": 1.0,
+                        "S_to_C_ACK": 1.0,
+                        "S_to_C_ACK+PSH": 1.0,
+                        "C_to_S_ACK+FIN": 1.0,
+                        "S_to_C_ACK+FIN": 1.0
+                    },
+                    "FP": {
+                        "S_to_C_SYN+ACK": 1.0,
+                        "C_to_S_ACK": 35.0625,
+                        "C_to_S_ACK+PSH": 3.84,
+                        "S_to_C_ACK": 11.5,
+                        "S_to_C_ACK+PSH": 47.46153846153846,
+                        "C_to_S_ACK+FIN": 1.0,
+                        "S_to_C_ACK+FIN": 1.0,
+                        "C_to_S_SYN": 1.0
+                    }
+                },
+                "mean_similarity": {
+                    "TP": 0.8043895944244305,
+                    "FP": 0.9502247971580292
+                }
+            },
+            "BAND_99_100": {
+                "mean_total_alignments": {
+                    "TP": 0.0,
+                    "FP": 64.37676282051282
+                },
+                "mean_alignments_per_activity": {
+                    "TP": {},
+                    "FP": {
+                        "C_to_S_SYN": 1.0,
+                        "S_to_C_SYN+ACK": 1.0,
+                        "C_to_S_ACK": 130.6346153846154,
+                        "C_to_S_ACK+PSH": 4.131578947368421,
+                        "S_to_C_ACK": 51.46153846153846,
+                        "S_to_C_ACK+PSH": 236.78846153846155,
+                        "C_to_S_ACK+FIN": 1.0,
+                        "S_to_C_ACK+FIN": 1.0
+                    }
+                },
+                "mean_similarity": {
+                    "TP": 0.0,
+                    "FP": 0.9957188509166255
+                }
+            }
+        }
+    },
+    "5": {
+        "band_threshold": "BAND_99_100",
+        "recall_sigma": 1.0,
+        "precision_sigma": 0.9966885084196435,
+        "tp_bands": {
+            "BAND_0_1": 0,
+            "BAND_1_25": 3497,
+            "BAND_25_75": 10639,
+            "BAND_75_99": 10,
+            "BAND_99_100": 0
+        },
+        "fp_bands": {
+            "BAND_0_1": 0,
+            "BAND_1_25": 0,
+            "BAND_25_75": 0,
+            "BAND_75_99": 21,
+            "BAND_99_100": 26
+        },
+        "band_stats": {
+            "BAND_0_1": {
+                "mean_total_alignments": {
+                    "TP": 0.0,
+                    "FP": 0.0
+                },
+                "mean_alignments_per_activity": {
+                    "TP": {},
+                    "FP": {}
+                },
+                "mean_similarity": {
+                    "TP": 0.0,
+                    "FP": 0.0
+                }
+            },
+            "BAND_1_25": {
+                "mean_total_alignments": {
+                    "TP": 1.910345772566962,
+                    "FP": 0.0
+                },
+                "mean_alignments_per_activity": {
+                    "TP": {
+                        "C_to_S_SYN": 1.0,
+                        "S_to_C_SYN+ACK": 1.0,
+                        "C_to_S_ACK": 1.4438179621425695,
+                        "C_to_S_ACK+PSH": 5.253725332259363,
+                        "S_to_C_ACK": 4.7635036496350365,
+                        "S_to_C_ACK+PSH": 1.0,
+                        "S_to_C_ACK+FIN": 1.0,
+                        "C_to_S_ACK+FIN": 1.0
+                    },
+                    "FP": {}
+                },
+                "mean_similarity": {
+                    "TP": 0.1442896397524348,
+                    "FP": 0.0
+                }
+            },
+            "BAND_25_75": {
+                "mean_total_alignments": {
+                    "TP": 2.090417500302123,
+                    "FP": 0.0
+                },
+                "mean_alignments_per_activity": {
+                    "TP": {
+                        "S_to_C_SYN+ACK": 1.0,
+                        "C_to_S_ACK": 1.8955519879119842,
+                        "C_to_S_ACK+PSH": 4.346398867457087,
+                        "S_to_C_ACK": 3.870954814146879,
+                        "S_to_C_ACK+PSH": 1.0,
+                        "S_to_C_ACK+FIN": 1.0,
+                        "C_to_S_ACK+FIN": 1.0,
+                        "C_to_S_SYN": 1.0
+                    },
+                    "FP": {}
+                },
+                "mean_similarity": {
+                    "TP": 0.5198195389451693,
+                    "FP": 0.0
+                }
+            },
+            "BAND_75_99": {
+                "mean_total_alignments": {
+                    "TP": 1.1528571428571428,
+                    "FP": 13.560345804988664
+                },
+                "mean_alignments_per_activity": {
+                    "TP": {
+                        "C_to_S_SYN": 1.0,
+                        "S_to_C_SYN+ACK": 1.0,
+                        "C_to_S_ACK": 2.0,
+                        "C_to_S_ACK+PSH": 1.0,
+                        "S_to_C_ACK": 1.0,
+                        "S_to_C_ACK+PSH": 1.0,
+                        "C_to_S_ACK+FIN": 1.0,
+                        "S_to_C_ACK+FIN": 1.0
+                    },
+                    "FP": {
+                        "S_to_C_SYN+ACK": 1.0,
+                        "C_to_S_ACK": 35.0625,
+                        "C_to_S_ACK+PSH": 3.84,
+                        "S_to_C_ACK": 11.5,
+                        "S_to_C_ACK+PSH": 47.46153846153846,
+                        "C_to_S_ACK+FIN": 1.0,
+                        "S_to_C_ACK+FIN": 1.0,
+                        "C_to_S_SYN": 1.0
+                    }
+                },
+                "mean_similarity": {
+                    "TP": 0.8043895944244305,
+                    "FP": 0.9502247971580292
+                }
+            },
+            "BAND_99_100": {
+                "mean_total_alignments": {
+                    "TP": 0.0,
+                    "FP": 64.37676282051282
+                },
+                "mean_alignments_per_activity": {
+                    "TP": {},
+                    "FP": {
+                        "C_to_S_SYN": 1.0,
+                        "S_to_C_SYN+ACK": 1.0,
+                        "C_to_S_ACK": 130.6346153846154,
+                        "C_to_S_ACK+PSH": 4.131578947368421,
+                        "S_to_C_ACK": 51.46153846153846,
+                        "S_to_C_ACK+PSH": 236.78846153846155,
+                        "C_to_S_ACK+FIN": 1.0,
+                        "S_to_C_ACK+FIN": 1.0
+                    }
+                },
+                "mean_similarity": {
+                    "TP": 0.0,
+                    "FP": 0.9957188509166255
+                }
+            }
+        }
+    }
+}

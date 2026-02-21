@@ -1,0 +1,8 @@
+{
+    "normal_1bisr_flows_flow_1914.pcap": 0.9999116463012332,
+    "normal_1bisr_flows_flow_230.pcap": 0.9964119566441922,
+    "normal_1bisr_flows_flow_2491.pcap": 0.9999522085265864,
+    "normal_1bisr_flows_flow_2643.pcap": 0.9965366930913795,
+    "normal_1bisr_flows_flow_2695.pcap": 0.9998735141249142,
+    "normal_1bisr_flows_flow_385.pcap": 0.9940512859392177
+}

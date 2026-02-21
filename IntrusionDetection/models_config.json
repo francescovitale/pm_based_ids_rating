@@ -1,0 +1,31 @@
+{
+    "models": [
+        {
+            "name": "OCSVM",
+            "dir_name": "ocsvm",
+            "class_name": "OCSVMModel",
+            "config_file": "ocsvm_config.json",
+            "params": {
+                "scale": true
+            }
+        },
+        {
+            "name": "Autoencoder",
+            "dir_name": "autoencoder",
+            "class_name": "AutoencoderModel",
+            "config_file": "autoencoder_config.json",
+            "params": {
+                "scale": true
+            }
+        },
+        {
+            "name": "VariationalAutoencoder",
+            "dir_name": "variational_autoencoder",
+            "class_name": "VAEModel",
+            "config_file": "vae_config.json",
+            "params": {
+                "scale": true
+            }
+        }
+    ]
+}

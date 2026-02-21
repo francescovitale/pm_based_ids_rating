@@ -1,0 +1,14 @@
+{
+    "normal_1bisr_flows_flow_119.pcap": 0.9884849209424127,
+    "normal_1bisr_flows_flow_1701.pcap": 0.9987415637738313,
+    "normal_1bisr_flows_flow_1735.pcap": 0.9908357913648009,
+    "normal_1bisr_flows_flow_1959.pcap": 0.999566214725626,
+    "normal_1bisr_flows_flow_2051.pcap": 0.9835517934294642,
+    "normal_1bisr_flows_flow_2194.pcap": 0.9972990173034473,
+    "normal_1bisr_flows_flow_2273.pcap": 0.9993177717469934,
+    "normal_1bisr_flows_flow_2727.pcap": 0.989165957209704,
+    "normal_1bisr_flows_flow_2791.pcap": 0.9177554217592221,
+    "normal_1bisr_flows_flow_378.pcap": 0.9951824580108494,
+    "normal_1bisr_flows_flow_566.pcap": 0.9867857497611909,
+    "normal_1bisr_flows_flow_932.pcap": 0.997827293508206
+}

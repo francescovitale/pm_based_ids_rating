@@ -1,0 +1,6 @@
+{
+    "remove_features": ["flow_id", "timestamp", "src_ip", "dst_ip", "src_port", "dst_port"],
+    "atk_flow_dir": "/path/to/dataset_flows/atk_flows",
+    "nrml_flow_dir": "/path/to/dataset_flows/nrml_flows",
+    "source_path": "/path/to/ids/"
+}
