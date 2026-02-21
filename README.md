@@ -166,8 +166,6 @@ This project has been executed on a Windows 11 machine with Pytest 8.4.2 and Pyt
 - pm4py 2.7.11.11
 - scipy 1.11.2
 - scikit-learn 1.3.0
-- google-genai 1.45.0
-- openai 2.7.2
 
 Please note that the list above is not comprehensive and there could be other requirements for running the project.
 
