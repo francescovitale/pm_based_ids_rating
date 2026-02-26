@@ -14,7 +14,7 @@ from ConfigManager import ConfigManager
 
 
 class ModelRunner:
-    """Orchestrates running multiple anomaly detection models."""
+    """Orchestrates running multiple anomaly detection models. """
     
     def __init__(self, base_config_path: str):
         self.base_config = ConfigManager.load_config(base_config_path)
